@@ -6,7 +6,7 @@ import {useTitle} from '../hooks/useTitle'
 
 export const PageNotFound = () => {
 
-const pageTitle = useTitle("Not Found")
+useTitle("Not Found")
 
   return (
    <main> 
